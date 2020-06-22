@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyCalculator</string>
+    <string name="choose_a_theme">Choose a theme</string>
+    <string name="light_theme_icon">Light_theme_icon</string>
+    <string name="light_theme">Light Theme</string>
+    <string name="dark_theme_icon">Dark_theme_icon</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="rose_theme_icon">Rose_theme_icon</string>
+    <string name="rose_theme">Rose Theme</string>
+</resources>

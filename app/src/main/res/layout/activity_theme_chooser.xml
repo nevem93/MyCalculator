@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundColor"
+    tools:context=".ThemeChooserActivity"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/card_view_margin"
+        android:elevation="@dimen/card_view_elevation"
+        android:padding="@dimen/card_view_padding"
+        app:cardBackgroundColor="?attr/cardBackgroundColor"
+        app:cardCornerRadius="@dimen/card_view_corner_radius">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/ll_card_view_margin"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/choose_a_theme"
+                android:textColor="?attr/Input_textColor"
+                android:textSize="@dimen/choose_theme_text_size" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/theme_card_layout_margin"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/btnLightMode"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/btn_theme_margin_top"
+                    android:background="?attr/colorAccent"
+                    android:orientation="horizontal"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+
+                        android:layout_width="@dimen/image_width_height"
+                        android:layout_height="@dimen/image_width_height"
+                        android:contentDescription="@string/light_theme_icon"
+                        android:src="@mipmap/ic_light_theme" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/theme_text_view_margin_start"
+                        android:layout_marginTop="@dimen/theme_text_view_margin_top"
+                        android:text="@string/light_theme"
+                        android:textColor="?attr/Input_textColor"
+                        android:textSize="@dimen/theme_text_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btnDarkMode"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/btn_theme_margin_top"
+                    android:background="?attr/colorAccent"
+                    android:orientation="horizontal"
+                    android:textColor="?attr/Card_Text_color"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:layout_width="@dimen/image_width_height"
+                        android:layout_height="@dimen/image_width_height"
+                        android:contentDescription="@string/dark_theme_icon"
+                        android:src="@mipmap/ic_dark_theme" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/theme_text_view_margin_start"
+                        android:layout_marginTop="@dimen/theme_text_view_margin_top"
+                        android:text="@string/dark_theme"
+                        android:textColor="?attr/Input_textColor"
+                        android:textSize="@dimen/theme_text_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btnPinkMode"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/btn_theme_margin_top"
+                    android:background="?attr/colorAccent"
+                    android:orientation="horizontal"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:layout_width="@dimen/image_width_height"
+                        android:layout_height="@dimen/image_width_height"
+                        android:contentDescription="@string/rose_theme_icon"
+                        android:src="@mipmap/ic_rose_theme" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/theme_text_view_margin_start"
+                        android:layout_marginTop="@dimen/theme_text_view_margin_top"
+                        android:text="@string/rose_theme"
+                        android:textColor="?attr/Input_textColor"
+                        android:textSize="@dimen/theme_text_size" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

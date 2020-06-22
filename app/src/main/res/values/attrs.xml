@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="a1">
+        <attr name="backgroundColor" format="color"/>
+        <attr name="cardBackgroundColor" format="color"/>
+        <attr name="Card_Text_color" format="color"/>
+        <attr name="Input_background" format="color"/>
+        <attr name="Input_textColor" format="color"/>
+        <attr name="Button_Text_color" format="color"/>
+        <attr name="Operator_Button_color" format="color"/>
+        <attr name="Button_Color" format="color"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="number_text_size">24sp</dimen>
+    <dimen name="choose_theme_text_size">25sp</dimen>
+    <dimen name="theme_card_layout_margin">10dp</dimen>
+    <dimen name="theme_text_size">18sp</dimen>
+    <dimen name="theme_text_view_margin_top">15dp</dimen>
+    <dimen name="theme_text_view_margin_start">15dp</dimen>
+    <dimen name="btn_theme_margin_top">2dp</dimen>
+    <dimen name="image_width_height">100dp</dimen>
+    <dimen name="ll_card_view_margin">10dp</dimen>
+    <dimen name="card_view_margin">20dp</dimen>
+    <dimen name="card_view_elevation">20dp</dimen>
+    <dimen name="card_view_padding">10dp</dimen>
+    <dimen name="card_view_corner_radius">10dp</dimen>
+
+</resources>
